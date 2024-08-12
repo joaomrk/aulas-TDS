@@ -1,0 +1,50 @@
+DECIMAL é uma forma de colocar numeros decimais e tem que ter 2 parametros o primeiro é o valor de caracteres e
+o segundo parametro é o valor dps da virgula. exemplo:
+decimal (10,2)
+
+CREATE TABLE IF NOT EXISTS `mydb`.`quartos` (
+    `idQuarto` INT NOT NULL,
+    `idValorQuarto` INT NOT NULL,
+    `serviçodeQuarto` VARCHAR(45) NULL,
+    PRIMARY KEY (`idQuarto`))
+
+    CREATE TABLE IF NOT EXISTS `mydb`.`Clientes` (
+  `idClientes` INT NOT NULL,
+  `idLocações` INT NOT NULL,
+  `nome` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NULL,
+  PRIMARY KEY (`idClientes`))
+ENGINE = INNODB
+
+CREATE TABLE IF NOT EXISTS pedidos (
+    id_pedido INT PRIMARY KEY,
+    decricao VARCHAR(200),
+    valor DECIMAL(10,2),
+    id_cliente INT,
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_clientes)
+)
+
+USE loja_joao;
+
+INSERT IGNORE INTO clientes (id_clientes,nome,email) VALUES
+(1,'joao silva','joao@example.com'),
+(2,'maria olic','maria@example.com'),
+(3,'pedro santos','pedro@example.com');
+
+INSERT IGNORE INTO pedidos(id_pedido,descricao,valor,id_cliente)VALUES
+(101,'Compra de móveis', 1500.00,1),
+(102,'Pedido de eletrônicos',2500.50,2),
+(103,'Serviços de instalação',500.75,3);
+
+//
+use loja_joao;
+
+--altere a tabela lojaclientes, adicionando a culuna telefone,que é do tipo varchar(100)
+add column telefone varchar(100)
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+//
+ALTER TABLE nome_da_tabela CHANGE nome_antigo_para nome_novo tipo_de_dados;
+tem menu de contexto

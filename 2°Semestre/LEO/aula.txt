@@ -1,0 +1,6 @@
+aplicação para fazer reserva de hotel 
+
+
+needs name of clients,id quarto, payment 
+id quarto, rooms, value of the room,
+id pagamento, value of the services,value of frigobar 

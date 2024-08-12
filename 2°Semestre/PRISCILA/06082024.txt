@@ -1,0 +1,23 @@
+a database is a program to store and get informations is divided in columns and rows wich is easier to access by the users cause the columns and rows create fields with one information per field 
+a data sorting
+data colection
+b data coding
+data coding
+c data validation
+data validation
+d data entry
+data entry
+e data tabulation
+data tabulation
+f data colection
+data sorting
+
+1-	Of
+2-	In
+3-	About
+4-	At
+5-	For
+6-	From
+7-	Into
+8-	between
+

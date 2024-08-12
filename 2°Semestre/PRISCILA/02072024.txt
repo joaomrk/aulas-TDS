@@ -1,0 +1,9 @@
+aula sobre flowchart
+
+talk to customer => analyse information => create specification
+=> design and develop website => specialist writes content =>
+programmers code HTML => test the website 
+
+describe the website development process to another pair in your own words.
+
+    We can develop a site with java 

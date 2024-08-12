@@ -1,0 +1,8 @@
+1 - funny
+2 - quiet
+3 - generous
+4 - unfriendly
+5 - dishonest
+6 - confident
+7 - polite
+8 - hardworking

@@ -1,0 +1,14 @@
+1) the visits is in 22,273 thousand, the absolute unique visitors
+is in 16,444 thousand, pageviews in 58,465 thousand, 
+the average people who see this page is 2.62, time on site 00:01:47, bounce rate 
+is in 67,83. dashboard,visitors overview, traffic overview, content 
+overview, event tracking overview and goals overview.
+
+2) 
+1. you can see in visitors overview in visits.
+2. visitors overview and them in bounce rate.
+3. visitors overview and them in time on site.
+4. keyword (visits) 
+3)
+4)1-E,2-b,3-c,4-a,5-d
+

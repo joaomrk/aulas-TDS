@@ -1,0 +1,2 @@
+chevete 12 km por litro
+if carro andar mais de 12 km gasolina = menos 1

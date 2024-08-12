@@ -1,0 +1,30 @@
+ddl data definition language 
+
+
+create table clientes (
+    -- coluna / tipo de dado / restrição,
+    idClientes int primary key,
+    nome varchar(100),
+    telefone varchar(100)
+
+
+)
+
+use livrariajoaom
+
+CREATE TABLE clientes(
+	-- coluna / tipo de dado / restrição,
+    idClientes int primary key,
+    nome varchar(100),
+    telefone varchar(100)
+)
+
+create table if not exists clientes ()
+
+alter table clientes add email varchar(100);
+
+
+
+
+alter table clientes change column email
+emailCliente varchar(255);
